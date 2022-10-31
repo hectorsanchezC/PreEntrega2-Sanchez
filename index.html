@@ -13,7 +13,7 @@
 
     <!-- Styles CSS-->
     <!-- =================================================================================== -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/translated.css">
     <title>Historia del Cafe</title>
 
     <!-- Favicon-->
@@ -45,18 +45,18 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#intro">Home</a>
                     </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link" href="#"></a>
-                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#historia">Historia</a>
                     </li>
-                   <!-- <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#informacion">Informacion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
-                    </li> -->
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -84,6 +84,22 @@
        </div>
     </section>
 
+
+
+    <!--Nosotros-->
+    <!-- =================================================================================== -->
+
+    <section class="container-fluid" id="nosotros">
+        <div class="container-fluid fw-bold pt-5">
+            <h3 class="fs-1 p-5 fw-bold text-center" >
+                Nosotros
+            </h3>
+            <p class=" p-5 fs-3">
+                La historia de Kaldi, un criador de cabras etíope del siglo IX que habría descubierto el café, no apareció escrita hasta 1671 y es probablemente apócrifa. Se cree que, desde Etiopía, el café fue propagado a Egipto y Yemen. La evidencia creíble más temprana de cualquier bebida de café o conocimiento del árbol del café aparece a mediados del siglo XV, en los monasterios sufi de Yemen. Fue allí, en Arabia, donde los granos de café fueron tostados y molidos por primera vez con sal en una forma similar a como son preparados en la actualidad. Para el siglo XVI, se había expandido por el resto del Medio Oriente, Persia, Turquía y África del Norte. Luego, el café se extendió a Italia y el resto de Europa hasta Indonesia y el continente americano.
+            </p>
+        </div>
+    </section>
+
     
 
 
@@ -100,7 +116,7 @@
                     <h3 class="fs-1 p-5 fw-bold text-center">
                         Primeros usos 
                     </h3>
-                    <p class="p-5 fs-3">
+                    <p class="pt-5 fs-3">
                         Existen varios relatos legendarios sobre el origen de la bebida en sí. Uno de ellos involucra al místico sufí yemení Ghothul Akbar Nooruddin Abu al-Hasan al-Shadhili.6 Según esta leyenda, mientras viajaba por Etiopía, observó unas aves de vitalidad inusual y, al probar las bayas que las aves estaban comiendo, experimentó la misma vitalidad. Otro relato involucra al pastor de cabras, Kaldi, quien se percató de los efectos energizantes cuando su rebaño mordisqueó las bayas rojas y brillantes de cierto arbusto, mascando la fruta en sí
                     </p>
                 </div>
@@ -148,6 +164,117 @@
             </di>
         </div>
     </section>
+
+    <!--Informacion-->
+    <!-- =================================================================================== -->
+
+    <section class="container-fluid pt-5" id="informacion">
+        <div class="container fw-bold pt-5">
+            <div class="jumbotron  text-center">
+                <h2 class="display-4 fs-1 p-5 fw-bold text-center">
+                    Informacion
+                </h2>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-3">
+                    <a href="./image/fotos-1.jpg" data-lightbox="mygallery" data-title="caption here">
+                        <img src="/image/fotos-1.jpg" alt="" class="img-fluid" width="800" id="coffe">
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a href="./image/fotos-2.jpeg" data-lightbox="mygallery" data-title="caption here">
+                        <img src="/image/fotos-2.jpeg" alt="" class="img-fluid" width="800">
+                    </a>
+                </div>
+                <div class="col-lg-8 mb-3">
+                    <a href="./image/fotos-3.jfif" data-lightbox="mygallery" data-title="caption here">
+                        <img src="/image/fotos-3.jfif" alt="" class="img-fluid" width="100%">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="col-lg-12 mb-3">
+                        <a href="./image/fotos-4.jpg" data-lightbox="mygallery" data-title="caption here">
+                            <img src="/image/fotos-4.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-12 mb-3">
+                        <a href="./image/fotos-5.jpg" data-lightbox="mygallery" data-title="caption here">
+                            <img src="/image/fotos-5.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <!-- =================================================================================== -->
+    <div class="container mt-5" id="contacto-container">
+        <form class="row mt-3 g-3 needs-validation" novalidate id="contacto">
+
+            <div class="col-6">
+                <label for="nameId" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nameId" required>
+                <div class="valid-feedback">
+                    Todo bien
+                </div>
+                <div class="invalid-feedback">
+                    Es necesario poner el nombre
+                </div>
+            </div>
+
+            <div class="col-6">
+                <label for="surnameId" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="surnameId" required>
+                <div class="valid-feedback">
+                    Todo bien
+                </div>
+                <div class="invalid-feedback">
+                    Es necesario poner los apellidos
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label for="emailId" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="emailId" required>
+                <div class="valid-feedback">
+                    Todo bien
+                </div>
+                <div class="invalid-feedback">
+                    Es necesario el correo
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="validationTextarea" cols="30" rows="10" required></textarea>
+                <div class="invalid-feedback">
+                  Es necesario  su mensaje
+                </div>
+              </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="terms" required>
+                    <label for="terms" class="form-check-label">Acepto los terminos y condiciones</label>
+                    <div class="valid-feedback">
+                        Todo bien
+                    </div>
+                    <div class="invalid-feedback">
+                        Es necesario Aceptar los terminos
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+    </div>
+
+
+                
     
     <!--footer-->
     <!-- =================================================================================== -->
@@ -166,6 +293,7 @@
 
 
     <!-- Bootstrap JavaScrip-->
+    <script src="/js/formulario.js"></script>
     <script src="./js/bootstrap.js"></script>
 </body>
 </html>
